@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            width: 55vw;
+            margin: auto;
+            display: flex;
+            border: 2px solid #000000;
+        }
+        .left {
+            background-color: #06060d;
+            color: white;
+            text-align: center;
+            padding: 0 20px;
+            width: 45%;
+        }
+        #img {
+            height: 25vh;
+            width: 12vw;
+            padding-top: 10px;
+        }
+        .details {
+            line-height: 8px;
+            font-weight: normal;
+        }
+        .social-media {
+            text-align: start;
+        }
+        #icon {
+            height: 30px;
+            width: 30px;
+            margin-right: 4px;
+            margin-top: 4px;
+            position: relative;
+        }
+        .language {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .languages {
+            text-align: left;
+        }
+        .skill {
+            font-size: 28px;
+        }
+        hr {
+            margin-top: -18px;
+        }
+        .Soft-skill {
+            text-align: left;
+        }
+
+        .right {
+            padding: 0 15px;
+            width: 55%;
+        }
+        .profile { 
+            font-size: 20px;
+        }
+        .right hr {
+            background-color: #0e1361;
+            height: 3px;
+        }
+        .edu-details {
+            line-height: 8px;
+        }
+        .experience span {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .projects {
+            line-height: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="left">
+            <section>
+                <img id="img" src="./images/copy.png" alt="logo">
+            </section>
+            <section class="details">
+                <h2>Bipul Mondal</h2>
+                <h3>Full Stack JavaScript Web developer</h3>
+                <h3>bipulmondal3007@gmail.com</h3>
+                <h3>Amtala, West Bengal, 743513</h3>
+                <h3>7003611474</h3>
+            </section>
+            <section class="social-media">
+                <img id="icon" src="./images/netlify.png" alt="logo"> <a href="#">www.netspanfy.com/bipulmondal</a><br>
+                <img id="icon" src="./images/github.png" alt="logo"><a href="#">www.github.com/bipulmondal</a><br>
+                <img id="icon" src="./images/linkedin.png" alt="logo"><a href="#">www.spannkedin.com/bipulmondal</a>
+            </section>
+            <section class="skills">
+                <h3 class="skill">Skills</h3><hr>
+                <section>
+                    <h3>Frontend Web Development<h3>
+                    <hr>
+                    <div class="language">
+                        <span>HTML</span> <span>CSS</span><span>Tailwind CSS</span>
+                        <span>JavaScript</span> <span>React</span>
+                    </div>
+                </section>
+                <section>
+                    <h3>Backend Web Development</h3>
+                    <hr>
+                    <div class="language">
+                        <span>Node Js</span>
+                        <span>Express Js</span>
+                        <span>Mongo DB</span>
+                    </div>
+                </section>
+            </section>
+            <section>
+                <h3 class="skill">Soft Skills</h3><hr>
+                <ul class="Soft-skill">
+                    <li>Communication</li>
+                    <li>Creative Thinking</li>
+                    <li>Active Listening</li>
+                    <li>Problem Solving</li>
+                    <li>Team work</li>
+                </ul>
+            </section>
+            <section >
+                <h2>Language</h2><hr>
+                <div class="languages">
+                    <ul>
+                        <li>Bengali</li>
+                        <li>Hindi</li>
+                        <li>English</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <div class="right">
+            <section class="profile">
+                <p>As a Full Stack JavaScript Web Developer, I have experience with both the client-side and server-side of web applications. I have expertise in using react as front-end java Script library. Additionally I am familiar with responsive web design. I have experience with Node.js and Express.js to build scalable and robust server side applications. I am also skilled in working with Mongo DB. I have also deep understanding of programming concepts and strong problem solving skills. </p>
+            </section>
+            <section class="education">
+                <h2>Education</h2><hr>
+                <div class="edu-details">
+                    <h3>Bachelor’s in Computer Application</h3>
+                    <h5>Indira Gandhi National Open University</h5>
+                    <h3>Higher Secondary (WBCHSE)</h3>
+                    <h5>Udayrampur Pallisree Sikshayatan</h5>
+                </div>
+            </section>
+            <section class="experience">
+                <h2>Experience</h2><hr>
+                <p><span>National Youth Volunteer </span>at Ministry of youth affairs and sports. Government of India.</p>
+                <p>NYV (National Youth Volunteer) at <span>Nehru Yuva Kendra Sangathan.</span></p>
+            </section>
+            <section class="project">
+                <h2>Projects</h2><hr>
+                <div class="projects">
+                <h4>1. Todo App</h4>
+                <p>Real time crud application made with mern stack with many features.</p>
+                <h4>2.Ecommerce Website</h4>
+                <p>Real time e-com website made with mern stack. It’s have many features, reusability, authorization and authentication verification</p>
+                <h4>3. Message App</h4>
+                <p>Real Time Chat App</p>
+                </div>
+
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
